@@ -1,0 +1,38 @@
+section {
+    height: calc(100vh - 136px);
+    // margin: 0 auto;
+    // width: 100vh;
+    // text-align: center;
+    .module-banner {
+        background-image: url("/assets/banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #2aa77b;
+        background-blend-mode: multiply;
+        height: 15rem;
+        p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+            color: white;
+        }
+    }
+
+    .banner-content {
+        .card {
+            top: -3rem;
+            // width: 30rem;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    }
+
+    .button-container {
+        text-align: center;
+        button {
+            // width: 30rem;
+        }
+    }
+}
